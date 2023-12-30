@@ -31,6 +31,18 @@ public class Comment {
 	private LocalDateTime commentInitializedAt;
 
 	
+	public Comment() {
+		super();
+	}
+
+	public Comment(int id, String content, User userId, LocalDateTime commentInitializedAt) {
+		super();
+		this.id = id;
+		this.content = content;
+		this.userId = userId;
+		this.commentInitializedAt = commentInitializedAt;
+	}
+
 	public int getId() {
 		return id;
 	}

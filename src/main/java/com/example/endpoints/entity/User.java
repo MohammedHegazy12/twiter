@@ -24,11 +24,24 @@ public class User {
 	@Column(name="last_name")
 	private String lastName;
 	
-	@OneToMany 
-	@JoinColumn(name="user_id")
+	@OneToMany(mappedBy="userId")
+ 
 	 private List<Post>posts;
 	
 	
+	public User(String firstName, String lastName, String password) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.password = password;
+	}
+	
+	
+	public User() {
+		super();
+	}
+
+
 	public List<Post> getPosts() {
 		return posts;
 	}

@@ -1,1 +1,1 @@
-{"resources":{"src/main/resources/project_data_base_schema.sql":{"default-datasource":"mysql8-18cb4b0bce1-65460b603d1431fe","default-catalog":"twiter"}}}
+{"resources":{"src/main/resources/file.sql":{"default-datasource":"mysql8-18cb4b0bce1-65460b603d1431fe","default-catalog":"twiter"},"src/main/resources/project_data_base_schema.sql":{"default-datasource":"mysql8-18cb4b0bce1-65460b603d1431fe","default-catalog":"twiter"}}}

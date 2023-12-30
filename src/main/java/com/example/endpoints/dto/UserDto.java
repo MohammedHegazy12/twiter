@@ -10,9 +10,7 @@ public record UserDto(
 		String firstName,
 		String lastName,
 		String password,
-		List<Post>posts
+		List<PostDto>posts
 		) {
-  public UserDto(User user) {
-	  this(user.getId(),user.getFirstName(),user.getLastName(),user.getPassword(),user.getPosts());
-  }
+ 
 }
